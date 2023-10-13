@@ -20,6 +20,15 @@
 
             // Förväntat resultat: 25
             Console.WriteLine($"Kvadrats Area: {kvadrat.Area()}");
+
+            IForm triangle = new Triangle
+            {
+                Base = 10,
+                Height = 12
+            };
+
+            // Förväntat resultat: 60
+            Console.WriteLine($"Trianglens Area: {triangle.Area()}");
         }
     }
 }
