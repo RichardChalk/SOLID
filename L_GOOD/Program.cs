@@ -18,7 +18,7 @@
                 Side = 5
             };
 
-            // Förväntat resultat: 50
+            // Förväntat resultat: 25
             Console.WriteLine($"Kvadrats Area: {kvadrat.Area()}");
         }
     }
