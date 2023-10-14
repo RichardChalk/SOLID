@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Switch wallSwitch = new Switch();
+
+            Console.WriteLine("Tryck på strömbrytaren:");
+            wallSwitch.Toggle();
+            wallSwitch.Toggle();
+            wallSwitch.Toggle();
+
+            Console.ReadLine();
         }
     }
 }
