@@ -20,6 +20,10 @@ namespace O_BAD
             }
             // Varje gång vi vill lägga till en ny form...
             // Måste denna kod ändras!
+            else if (shape is Triangle triangle)
+            {
+                return 0.5 * triangle.Base * triangle.Height;
+            }
             throw new InvalidOperationException("Ogiltig form");
         }
     }
