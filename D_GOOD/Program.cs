@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // En vanlig lampa!
             ISwitchable bulb = new LightBulb();
             Switch wallSwitch = new Switch(bulb);
 
